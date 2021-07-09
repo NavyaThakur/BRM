@@ -1,0 +1,155 @@
+
+
+#b2{
+  background-color:black;
+}
+
+table tr th {
+  background-color:#ff4d4d;
+  color: white;
+  margin: 20px;
+ padding-left:20px;
+ padding-right:20px;
+ padding-top: 5px;
+ padding-bottom: 5px;
+}
+div span{
+  background-color:black;
+  color: white;
+  margin: 5px;
+  padding: 5px;
+}
+a{
+  color:white;
+  text-decoration: none;
+  font-family: serif;
+  font-size: 20px;
+
+}
+.icon{
+  display: inline-flex;
+  align-items: center;
+
+  color: white;
+  height: 100%;
+}
+.eye{
+  padding: 5px;
+  color: white;
+}
+.heading{
+  font-family: monospace;
+  font-size: 50px;
+  text-align: center;
+  align-items: center;
+  color: #ff4d4d;
+
+}
+#login{
+  position: relative;
+  top:75px;
+}
+.usernpass{
+  font-family: monospace;
+  font-size: 25px;
+  color: #ff4d4d;
+
+}
+#username{
+  width: 250px;
+  height: 25px;
+  color:#ff4d4d;
+}
+#password{
+  width: 250px;
+  height: 25px;
+  color: #ff4d4d;
+}
+#loginbutton{
+  font-family: monospace;
+  font-size: 15px;
+  text-align: center;
+  align-items: center;
+  width: 75px;
+  height: 35px;
+  position: relative;
+  left:80px;
+  top:25px;
+  background-color:white;
+  color: #ff4d4d;
+}
+#loginbutton:hover{
+  background-color:#ff4d4d;
+  color: white;
+}
+.update{
+  position: absolute;
+  left:1040px;
+  width: 90px;
+  height: 30px;
+  top:133px;
+  background-color: #ff4d4d;
+  color: white;
+}
+.update:hover{
+  background-color: white;
+  color:#ff4d4d;
+  box-shadow: 0px 0px 5px #ff4d4d;
+}
+.h2{
+  align-items: center;
+  text-align: center;
+  color: #ff4d4d;
+}
+.form{
+  align-items:center;
+}
+.end{
+  color: #ff4d4d;
+
+}
+.endd{
+  position: relative;
+  left:30px;
+  border-style: dotted;
+  font-size: 15px;
+}
+.endd a{
+  font-size: 15px;
+}
+.endd:hover{
+  background-color: #ff4d4d;
+  color: white;
+  box-shadow: 0px 0px 5px #ff4d4d;
+}
+.endd a:hover{
+  color:white;
+
+}
+.t1{
+  align-items: center;
+  text-align: center;
+  position: relative;
+  left: 30%;
+
+}
+.tr td {
+  color:  #ff4d4d;
+  border-width: thin;
+  border-style: solid;
+  border-color: #ff4d4d;
+}
+#s1{
+  align-items: center;
+  text-align:center;
+
+}
+.search{
+  background-color: #ff4d4d;
+  color: white;
+}
+.search:hover{
+  background-color: white;
+  color:#ff4d4d;
+  box-shadow: 0px 0px 5px #ff4d4d;
+}

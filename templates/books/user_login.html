@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+{% load static %}
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>SEARCH BOOK RECORD</title>
+    <link rel="stylesheet" href="{% static 'css/bookstyle.css' %}">
+  </head>
+  <body id="b2">
+     <div id="header">
+       <h1 class="heading"> BOOK RECORD MANAGEMENT</h1>
+
+    </div>
+    <div id="main">
+      <form method="post">
+        {% csrf_token %}
+        <table align="center" id='login'>
+          <tr>
+            <td class="usernpass"><label for="username">Username</label></td>
+            <td><input type="text" name="username" id="username"></td>
+          </tr>
+          <tr>
+            <td class="usernpass"><label for="password">Password</label></td>
+            <td><input type="password" name="password" id="password"></td>
+          </tr>
+          <tr>
+            <td></td>
+            <td><input type="submit" value="Login" id='loginbutton'></td>
+          </tr>
+        </table>
+      </form>
+      <p>{{error}}</p>
+    </div>
+    </body>
+    </html>

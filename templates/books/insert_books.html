@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+{% load static %}
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>INSERT NEW BOOK RECORD</title>
+    <link rel="stylesheet" href="{% static 'css/bookstyle.css' %}">
+  </head>
+  <body>
+    <table width="100%" cellspacing="0" cellpadding="0" bgcolor="#ff4d4d" >
+          <tr>
+            <td>
+              <table  align="center"  cellspacing="0" cellpadding="20">
+                <tr>
+                  <td>
+                     <span class="icon" >
+                     <a href="http://localhost:8000/books/view/">View Books</a>
+                     <ion-icon name="eye-outline" class="eye"></ion-icon>
+                     </span>
+                    </td>
+                    <td>
+                     <span class="icon">
+                     <a href="http://localhost:8000/books/insert/">Insert New Book</a></br>
+                     <ion-icon name="add-outline" class="eye"></ion-icon>
+                     </span>
+                    </td>
+                    <td>
+                     <span class="icon">
+                     <a href="http://localhost:8000/books/logout/">Logout</a>
+                     <ion-icon name="log-out-outline" class="eye"></ion-icon>
+                     </span>
+                     </td>
+                      <td>
+                     <span class="icon">
+                     <a href="http://localhost:8000/books/search/">Search Book</a>
+                     <ion-icon name="search-outline" class="eye"></ion-icon>
+                     </span>
+                    </td>
+                  </tr>
+                </table>
+              </td>
+            </tr>
+          </table>
+
+     <div id="main">
+       <h2 class="h2">Insert New Book Record</h2>
+       <form action="http://localhost:8000/books/save/" method="post">
+         {% csrf_token %}
+         {{form}}
+         <input type="submit" name="" value="Insert" class="update">
+       </form>
+
+     </div>
+     <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+     <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+  </body>
+</html>

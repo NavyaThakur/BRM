@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+{% load static %}
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>HomePage</title>
+    <link rel="stylesheet" href="{% static 'css/homepage.css' %}">
+  </head>
+  <body id="b1">
+    <div id=d2>
+        <h1>BOOK RECORD MANAGEMENT</h1>
+        <br>
+        <br>
+        <p>Welcome to our page. Here, you can mantain your books record safely.</p>
+    </div>
+
+    <div id="nav">
+
+      <span class="icon" >
+      <a href="http://localhost:8000/books/view/">View Books</a>
+      <ion-icon name="eye-outline" class="eye"></ion-icon>
+      </span>
+      <span class="icon">
+      <a href="http://localhost:8000/books/insert/">Insert New Book</a></br>
+      <ion-icon name="add-outline" class="eye"></ion-icon>
+      </span>
+      <span class="icon">
+      <a href="http://localhost:8000/books/search/">Search Book</a>
+      <ion-icon name="search-outline" class="eye"></ion-icon>
+      </span>
+      <span class="icon">
+      <a href="http://localhost:8000/books/logout/">Logout</a>
+      <ion-icon name="log-out-outline" class="eye"></ion-icon>
+      </span>
+
+    </div>
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+  </body>
+</html>
